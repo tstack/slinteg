@@ -1,0 +1,135 @@
+{
+    "_id": "2720d506-280d-49de-9ef5-fe04d9184cb0", 
+    "class_fqid": "com-snaplogic-pipeline_8", 
+    "class_id": "com-snaplogic-pipeline", 
+    "class_version": 8, 
+    "create_time": "2017-11-06T23:46:10.236000+00:00", 
+    "create_user_id": "tstack@snaplogic.com", 
+    "instance_fqid": "2720d506-280d-49de-9ef5-fe04d9184cb0_2", 
+    "instance_id": "2720d506-280d-49de-9ef5-fe04d9184cb0", 
+    "instance_version": 2, 
+    "link_map": {}, 
+    "link_serial": 100, 
+    "migrate_version": "1510013378", 
+    "path_id": "/snaplogic/projects/checktest2", 
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        }, 
+        "info": {
+            "author": {
+                "value": "tstack@snaplogic.com"
+            }, 
+            "label": {}, 
+            "notes": {
+                "value": null
+            }, 
+            "pipeline_doc_uri": {
+                "value": null
+            }, 
+            "purpose": {
+                "value": null
+            }
+        }, 
+        "input": {}, 
+        "instance_version": 1, 
+        "output": {
+            "db5f0af0-bcfb-4d42-8c04-07138dcc6d09_output0": {
+                "label": {
+                    "value": "JSON Generator - output0"
+                }, 
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        }, 
+        "settings": {
+            "error_param_table": {
+                "value": []
+            }, 
+            "error_pipeline": {
+                "expression": false, 
+                "value": null
+            }, 
+            "imports": {
+                "value": []
+            }, 
+            "param_table": {
+                "value": []
+            }
+        }
+    }, 
+    "render_map": {
+        "default_snaplex": "54dd1de3d6f45f00d3429898", 
+        "detail_map": {
+            "db5f0af0-bcfb-4d42-8c04-07138dcc6d09": {
+                "grid_x_int": 1, 
+                "grid_y_int": 2, 
+                "rot_int": 0, 
+                "rot_tail_int": 0
+            }
+        }, 
+        "pan_x_num": 0, 
+        "pan_y_num": 0, 
+        "scale_ratio": 1
+    }, 
+    "scrub_backup": [], 
+    "scrub_version": "48f99abcdf450e7c49a04015355fb699f785e8cbf8288d894686a64c6caeddd1", 
+    "snap_map": {
+        "db5f0af0-bcfb-4d42-8c04-07138dcc6d09": {
+            "class_build_tag": "SNAPSHOT", 
+            "class_fqid": "com-snaplogic-snaps-transform-jsongenerator_2-SNAPSHOT", 
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator", 
+            "class_version": 2, 
+            "instance_fqid": "db5f0af0-bcfb-4d42-8c04-07138dcc6d09_1", 
+            "instance_id": "db5f0af0-bcfb-4d42-8c04-07138dcc6d09", 
+            "instance_version": 1, 
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        }, 
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }, 
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                }, 
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    }, 
+                    "notes": {
+                        "value": null
+                    }
+                }, 
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        }, 
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                }, 
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    }, 
+                    "editable_content": {
+                        "value": "## Enter your JSON-encoded data in this space.  Note that this text is\n## treated as an Apache Velocity template, so you can substitute values\n## from input documents or the pipeline parameters.  See the following\n## URL for more information about Velocity:\n##   https://velocity.apache.org/engine/devel/user-guide.html\n\n[\n    {\n        \"msg\" : \"Hello, World\", \"num\" : 1\n    }\n]\n\n\n## Tips:\n##  * The sample data above will generate a single empty document, uncomment\n##    the line in the middle to include the sample fields.  Adding more\n##    objects to the root array will cause the snap to generate more\n##    than one document.\n##  * Pipeline parameters can be referenced by prefixing the parameter\n##    name with an underscore, like so:\n##      ${_pipelineParamName}\n##  * If you add an input view to the snap, this template will be\n##    evaluated for each input document.\n##  * Fields in the input documents can be referenced by prefixing them\n##    with a dollar-sign ($), like so:\n##      $parent.child[0].value\n##  * Any referenced document values and pipeline parameters will\n##    automatically be JSON-encoded when they are inserted into the final\n##    JSON document.  You should not have to worry about escaping values\n##    yourself.\n##  * If you are having troubles getting a template to produce valid JSON,\n##    you can add an error view to the snap to get a document that\n##    contains the output of the template evaluation."
+                    }
+                }, 
+                "view_serial": 100
+            }
+        }
+    }, 
+    "update_time": "2017-11-06T23:46:25.450000+00:00", 
+    "update_user_id": "tstack@snaplogic.com"
+}
