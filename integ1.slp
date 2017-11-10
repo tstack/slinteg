@@ -77,6 +77,7 @@
                 "rot_tail_int": 0
             }, 
             "11111111-1111-1111-1111-000000000001": {
+                "error": {}, 
                 "grid_x_int": 3, 
                 "grid_y_int": 2, 
                 "input": {}, 
@@ -85,11 +86,8 @@
                 "rot_tail_int": 0
             }, 
             "11111111-1111-1111-1111-000000000002": {
-                "error": {}, 
                 "grid_x_int": 2, 
                 "grid_y_int": 2, 
-                "input": {}, 
-                "output": {}, 
                 "rot_int": 0, 
                 "rot_tail_int": 0
             }
@@ -286,6 +284,15 @@
                                         }, 
                                         "targetPath": {
                                             "value": "$out"
+                                        }
+                                    }, 
+                                    {
+                                        "expression": {
+                                            "expression": true, 
+                                            "value": "1"
+                                        }, 
+                                        "targetPath": {
+                                            "value": "$two"
                                         }
                                     }
                                 ]
