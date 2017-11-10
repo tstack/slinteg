@@ -1,3 +1,0 @@
-# slinteg
-
-Testing
