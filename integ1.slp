@@ -3,9 +3,15 @@
     "class_version": 8, 
     "link_map": {
         "link101": {
-            "dst_id": "11111111-1111-1111-1111-000000000001", 
+            "dst_id": "11111111-1111-1111-1111-000000000002", 
             "dst_view_id": "input0", 
             "src_id": "11111111-1111-1111-1111-000000000000", 
+            "src_view_id": "output0"
+        }, 
+        "link102": {
+            "dst_id": "11111111-1111-1111-1111-000000000001", 
+            "dst_view_id": "input0", 
+            "src_id": "11111111-1111-1111-1111-000000000002", 
             "src_view_id": "output0"
         }
     }, 
@@ -31,14 +37,14 @@
             }
         }, 
         "input": {}, 
-        "instance_version": 2, 
+        "instance_version": 1, 
         "output": {
             "11111111-1111-1111-1111-000000000001_output0": {
                 "label": {
-                    "value": "Mapper - output0"
+                    "value": "JSON Formatter - output0"
                 }, 
                 "view_type": {
-                    "value": "document"
+                    "value": "binary"
                 }
             }
         }, 
@@ -71,8 +77,19 @@
                 "rot_tail_int": 0
             }, 
             "11111111-1111-1111-1111-000000000001": {
+                "grid_x_int": 3, 
+                "grid_y_int": 2, 
+                "input": {}, 
+                "output": {}, 
+                "rot_int": 0, 
+                "rot_tail_int": 0
+            }, 
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {}, 
                 "grid_x_int": 2, 
                 "grid_y_int": 2, 
+                "input": {}, 
+                "output": {}, 
                 "rot_int": 0, 
                 "rot_tail_int": 0
             }
@@ -130,9 +147,82 @@
             }
         }, 
         "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-jsonformatter", 
+            "class_version": 2, 
+            "instance_id": "11111111-1111-1111-1111-000000000001", 
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        }, 
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }, 
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                }, 
+                "info": {
+                    "label": {
+                        "value": "JSON Formatter"
+                    }
+                }, 
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        }, 
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                }, 
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        }, 
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                }, 
+                "settings": {
+                    "contentPath": {
+                        "value": "$"
+                    }, 
+                    "formatSingleDocument": {
+                        "value": false
+                    }, 
+                    "header": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true, 
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    }, 
+                    "ignoreEmptyStream": {
+                        "value": false
+                    }, 
+                    "jsonLines": {
+                        "value": false
+                    }, 
+                    "prettyPrint": {
+                        "value": false
+                    }
+                }, 
+                "view_serial": 100
+            }
+        }, 
+        "11111111-1111-1111-1111-000000000002": {
             "class_id": "com-snaplogic-snaps-transform-datatransform", 
             "class_version": 4, 
-            "instance_id": "11111111-1111-1111-1111-000000000001", 
+            "instance_id": "11111111-1111-1111-1111-000000000002", 
             "property_map": {
                 "error": {
                     "error0": {
