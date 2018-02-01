@@ -1,0 +1,5 @@
+
+{
+    msg: 'Hello, %s!',
+    hello: x => this.msg.sprintf(x)
+}
