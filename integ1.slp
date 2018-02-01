@@ -37,7 +37,6 @@
             }
         }, 
         "input": {}, 
-        "instance_version": 1, 
         "output": {
             "11111111-1111-1111-1111-000000000001_output0": {
                 "label": {
@@ -86,8 +85,11 @@
                 "rot_tail_int": 0
             }, 
             "11111111-1111-1111-1111-000000000002": {
+                "error": {}, 
                 "grid_x_int": 2, 
                 "grid_y_int": 2, 
+                "input": {}, 
+                "output": {}, 
                 "rot_int": 0, 
                 "rot_tail_int": 0
             }
