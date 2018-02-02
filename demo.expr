@@ -1,0 +1,10 @@
+{
+        account1: "foobar",
+	typeMap: {
+		Checking: "CHK",
+		Savings: "SAV",
+		"Home Loan": "MOR"
+	},
+	test: () => false,
+	convertStatus: x => (x == "Done" ? "COMPLETED" : (x.indexOf("error") != -1 ? "ERROR" : "UNKNOWN"))
+}
