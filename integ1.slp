@@ -37,7 +37,7 @@
             }
         }, 
         "input": {}, 
-        "instance_version": 2, 
+        "instance_version": 1, 
         "output": {
             "11111111-1111-1111-1111-000000000001_output0": {
                 "label": {
@@ -302,6 +302,15 @@
                                         }, 
                                         "targetPath": {
                                             "value": "$msg"
+                                        }
+                                    }, 
+                                    {
+                                        "expression": {
+                                            "expression": true, 
+                                            "value": "1"
+                                        }, 
+                                        "targetPath": {
+                                            "value": "$fdf"
                                         }
                                     }
                                 ]
