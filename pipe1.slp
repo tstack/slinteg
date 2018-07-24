@@ -24,7 +24,6 @@
             }
         },
         "input": {},
-        "instance_version": 2,
         "output": {
             "11111111-1111-1111-1111-000000000000_output0": {
                 "label": {
@@ -75,9 +74,12 @@
                 "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000001": {
+                "error": {},
                 "grid_x_int": 3,
                 "grid_y_int": 1,
                 "index": null,
+                "input": {},
+                "output": {},
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
