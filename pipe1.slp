@@ -24,7 +24,7 @@
             }
         },
         "input": {},
-        "instance_version": 1,
+        "instance_version": 2,
         "output": {
             "11111111-1111-1111-1111-000000000000_output0": {
                 "label": {
