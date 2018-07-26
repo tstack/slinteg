@@ -17,7 +17,7 @@
         "pipeline_path": "ultra-test",
         "snaplex_path": "cloud",
         "watchdog": {
-            "instances": 1,
+            "instances": 2,
             "per": "PLEX"
         }
     },
