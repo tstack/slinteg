@@ -9,6 +9,7 @@
             "src_view_id": "output0"
         }
     },
+    "name": "changetest",
     "property_map": {
         "error": {
             "error_behavior": {
@@ -19,7 +20,9 @@
             "author": {
                 "value": "tstack@snaplogic.com"
             },
-            "label": {},
+            "label": {
+                "value": "changetest"
+            },
             "notes": {
                 "value": null
             },
