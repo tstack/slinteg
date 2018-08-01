@@ -39,6 +39,7 @@
         DAYS: this._new(24 * 60 * 60),
     },
 
+
     /**
      * Represents chronological durations at a given granularity.
      */
