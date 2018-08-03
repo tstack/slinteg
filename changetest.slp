@@ -19,9 +19,7 @@
             "author": {
                 "value": "tstack@snaplogic.com"
             },
-            "label": {
-                "value": "changetest"
-            },
+            "label": {},
             "notes": {
                 "value": null
             },
