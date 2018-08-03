@@ -14,7 +14,7 @@
         "notification": {
             "recipients": null
         },
-        "pipeline_path": "pipe1",
+        "pipeline_path": "pipe2",
         "snaplex_path": "cloud"
     },
     "schedule": {
