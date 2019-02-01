@@ -1,0 +1,924 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 8,
+    "link_map": {
+        "link104": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000012",
+            "src_view_id": "output0"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-000000000012",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link111": {
+            "dst_id": "11111111-1111-1111-1111-000000000013",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link112": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000013",
+            "src_view_id": "output0"
+        },
+        "link113": {
+            "dst_id": "11111111-1111-1111-1111-000000000010",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link120": {
+            "dst_id": "11111111-1111-1111-1111-00000000000c",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000d",
+            "src_view_id": "error0"
+        },
+        "link122": {
+            "dst_id": "11111111-1111-1111-1111-00000000000f",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_view_id": "output0"
+        },
+        "link123": {
+            "dst_id": "11111111-1111-1111-1111-00000000000b",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000c",
+            "src_view_id": "output0"
+        },
+        "link124": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000f",
+            "src_view_id": "output101"
+        },
+        "link125": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "output0"
+        },
+        "link127": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000c",
+            "src_view_id": "output1"
+        },
+        "link128": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000d",
+            "src_view_id": "output0"
+        },
+        "link129": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000a",
+            "src_view_id": "output0"
+        },
+        "link131": {
+            "dst_id": "11111111-1111-1111-1111-00000000000d",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link132": {
+            "dst_id": "11111111-1111-1111-1111-00000000000e",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output1"
+        },
+        "link135": {
+            "dst_id": "11111111-1111-1111-1111-000000000011",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-00000000000e",
+            "src_view_id": "output0"
+        },
+        "link137": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link138": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000010",
+            "src_view_id": "output102"
+        },
+        "link139": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "output0"
+        },
+        "link140": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-00000000000d",
+            "src_view_id": "output1"
+        },
+        "link141": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000011",
+            "src_view_id": "output1"
+        },
+        "link142": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input102",
+            "src_id": "11111111-1111-1111-1111-000000000011",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": ""
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000006_output0": {
+                "label": {
+                    "value": "Join - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": [
+                    {
+                        "key": {
+                            "value": "pipe_json_str"
+                        },
+                        "value": {
+                            "expression": true,
+                            "value": "JSON.stringify(pipe)"
+                        }
+                    }
+                ]
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": "../../shared/EnterpriseSystemsDefaultErrorPipeline"
+            },
+            "imports": {
+                "value": [
+                    {
+                        "as": {
+                            "value": null
+                        },
+                        "path": {
+                            "expression": false,
+                            "value": "shared/globals.expr"
+                        }
+                    }
+                ]
+            },
+            "param_table": {
+                "value": [
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "minusHours"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "24"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "workerOrgsHttpPath"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "https://wd2-impl-services1.workday.com/ccx/service/customreport2/bowdoin/"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "5cdd717c-4224-44e8-9be2-add820333c87_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 3,
+                "index": 2,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": "02c90d16-986e-44a5-86a9-86a2d5372f02_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris panel"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 8,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 1,
+                "index": 1,
+                "input": {},
+                "output": {},
+                "recommendation_id": "5fc7d6ad-8cb5-4d6a-94d6-ec311a684f84_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris panel"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "index": 2,
+                "input": {},
+                "output": {},
+                "recommendation_id": "7d65d5db-40da-40d1-bf6f-89ce5e29070f_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris panel"
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "input101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "input102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000000d": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 7,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "6c77010b-3f13-4fff-ad0b-a8b69f83f37e_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            },
+            "11111111-1111-1111-1111-000000000010": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000012": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000013": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Map Request Criteria - Filter by Change Preferred Name"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Business_Process_Type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Request_Criteria.Transaction_Log_Criteria_Data[*].Transaction_Type_References.Transaction_Type_Reference[*].ID[*].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "Change Preferred Name"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Request_Criteria.Transaction_Log_Criteria_Data[*].Transaction_Type_References.Transaction_Type_Reference[*].ID[*].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.now().minusHours(_minusHours)"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Request_Criteria.Transaction_Log_Criteria_Data[*].Transaction_Date_Range_Data.Updated_From"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "Date.now()"
+                                        },
+                                        "targetPath": {
+                                            "value": "$Request_Criteria.Transaction_Log_Criteria_Data[*].Transaction_Date_Range_Data.Updated_Through"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-flow-copy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "output1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {},
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Execute Error Pipeline"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {},
+                "settings": {
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "pipe_json_str"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "JSON.stringify(pipe)"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "../../shared/EnterpriseSystemsDefaultErrorPipeline"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter out Student Workers"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$entity.Report_Entry[0].get('Positions') != null && !jsonPath($, \"$entity.Report_Entry[0].Positions[?(@.PrimaryJob == '1')].JobFamilyGroup\")[0].toUpperCase().startsWith('STUDENT')"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter where name actually changes"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$original.original.Worker_Data.Personal_Data.Name_Data.Preferred_Name_Data.Name_Detail_Data.First_Name != $SPRIDEN_FIRST_NAME || $original.original.Worker_Data.Personal_Data.Name_Data.Preferred_Name_Data.Name_Detail_Data.Last_Name != $SPRIDEN_LAST_NAME || $original.original.Worker_Data.Personal_Data.Name_Data.Preferred_Name_Data.Name_Detail_Data.get('Middle_Name') != $SPRIDEN_MI"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Split by Worker"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": []
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$Worker"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000013": {
+            "class_id": "com-snaplogic-snaps-transform-multijoin",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000013",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Join"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input101": {
+                        "label": {
+                            "value": "input2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input102": {
+                        "label": {
+                            "value": "input3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "joinPaths": {
+                        "value": []
+                    },
+                    "joinType": {
+                        "value": "Merge"
+                    },
+                    "noMatchData": {
+                        "value": false
+                    },
+                    "nullGreater": {
+                        "value": false
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "sortedStreams": {
+                        "value": "Unsorted"
+                    }
+                },
+                "view_serial": 102
+            }
+        }
+    }
+}
