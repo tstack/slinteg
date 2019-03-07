@@ -78,7 +78,7 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 3,
+                "grid_x_int": 4,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
