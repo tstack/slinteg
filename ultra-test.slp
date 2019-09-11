@@ -1,6 +1,89 @@
 {
     "class_id": "com-snaplogic-pipeline",
-    "class_version": 8,
+    "class_map": {
+        "11111111-1111-1111-1111-000000000001": {
+            "class_build_tag": "UNKNOWN",
+            "class_fqid": "com-snaplogic-snaps-transform-datatransform_4-UNKNOWN",
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_fqid": "11111111-1111-1111-1111-000000000001_1",
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "instance_version": 1,
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'Hello, World 2!'"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    },
+    "class_version": 9,
     "link_map": {},
     "property_map": {
         "error": {
@@ -24,7 +107,7 @@
             }
         },
         "input": {
-            "11111111-1111-1111-1111-000000000000_input0": {
+            "11111111-1111-1111-1111-000000000001_input0": {
                 "label": {
                     "value": "Mapper - input0"
                 },
@@ -34,7 +117,7 @@
             }
         },
         "output": {
-            "11111111-1111-1111-1111-000000000000_output0": {
+            "11111111-1111-1111-1111-000000000001_output0": {
                 "label": {
                     "value": "Mapper - output0"
                 },
@@ -62,7 +145,7 @@
     "render_map": {
         "default_snaplex": null,
         "detail_map": {
-            "11111111-1111-1111-1111-000000000000": {
+            "11111111-1111-1111-1111-000000000001": {
                 "error": {},
                 "grid_x_int": 4,
                 "grid_y_int": 3,
@@ -80,10 +163,10 @@
         "scale_ratio": 1
     },
     "snap_map": {
-        "11111111-1111-1111-1111-000000000000": {
+        "11111111-1111-1111-1111-000000000001": {
             "class_id": "com-snaplogic-snaps-transform-datatransform",
             "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
                 "error": {
                     "error0": {

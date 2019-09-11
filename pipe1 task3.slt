@@ -7,7 +7,7 @@
         "execution_timeout": null,
         "include_external_urls": false,
         "job_alias": null,
-        "job_type": "regular",
+        "job_type": "standard",
         "llfeed_token": "RjV7FFNBlr1oc48ycC55XTaylBgUPVUo",
         "max_failures": 10,
         "max_in_flight": 200,
