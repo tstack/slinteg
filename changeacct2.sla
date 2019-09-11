@@ -7,7 +7,7 @@
     "property_map": {
         "info": {
             "label": {
-                "value": "changeacct"
+                "value": "changeacct2"
             },
             "notes": {
                 "value": null
@@ -24,7 +24,7 @@
             },
             "username": {
                 "expression": false,
-                "value": "slap"
+                "value": "slap2"
             }
         },
         "view_serial": 100
