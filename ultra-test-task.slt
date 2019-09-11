@@ -15,9 +15,9 @@
             "recipients": null
         },
         "pipeline_path": "ultra-test",
-        "snaplex_path": null,
+        "snaplex_path": "cloud",
         "watchdog": {
-            "instances": 2,
+            "instances": 3,
             "per": "PLEX"
         }
     },
