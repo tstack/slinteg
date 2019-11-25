@@ -176,7 +176,7 @@
         }
     },
     "render_map": {
-        "default_snaplex": "/WFUDev/shared/WFUGround",
+        "default_snaplex": null,
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
