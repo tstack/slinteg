@@ -146,24 +146,7 @@
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000001",
             "property_map": {
-                "account": {
-                    "account_ref": {
-                        "expression": false,
-                        "value": {
-                            "label": {
-                                "expression": false,
-                                "value": "changeacct"
-                            },
-                            "ref_class_id": {
-                                "value": "com-snaplogic-snaps-binary-binarybasicauthaccount"
-                            },
-                            "ref_id": {
-                                "expression": false,
-                                "value": null
-                            }
-                        }
-                    }
-                },
+                "account": {},
                 "error": {
                     "error0": {
                         "label": {

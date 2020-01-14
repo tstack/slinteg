@@ -2,7 +2,7 @@
     "class_id": "com-snaplogic-snaps-binary-binarybasicauthaccount",
     "class_version": 1,
     "migration_metadata": {
-        "source_org": "snaplogic"
+        "source_org": "aorg"
     },
     "property_map": {
         "info": {
@@ -24,7 +24,11 @@
             },
             "username": {
                 "expression": false,
-                "value": "slap2"
+                "fp": "7c8e3888fb4117ccbace1fad3bf741b95c5b7d341e64694069050cd37ff4553c",
+                "key": "account-autogen",
+                "sym_iv": "3SpSLmqWo5uaaj9y353qqg==",
+                "sym_key": "SYHjUpeSXn6l6jRaMz1JZkYISAPcZHoedCbok7LQENQ5ArXlApKYm2RYizfNdi14J2wM6z/k0u6Oj0ISP3pmcYzdX0cblGO6EY27lqAYK0YHkobYEZf72o6Fd3medN5DtAjZFIhLczmVpaf80XrMxA8ugenvQAaNh//J+6kp0LaTcl6zlBkO66LLS4Xo28KktFCEolqjX8pm8h2thfkuwwAf8IlWRRui4IpUCbdzF5kIchzjLE+hV71Y/Buj0U/rVpFAJKURvwpJozwxA9jD1N5Huw57x+Jn3E7DiwM0UF54EHBf1axgaEz6GauQdSxFkLfiSdrfNk/U9PH/Ee9kUw==",
+                "value": "DtDkow3H4fj6shfJTRCcuA=="
             }
         },
         "view_serial": 100

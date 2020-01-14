@@ -16,7 +16,7 @@
         },
         "num_instances": 1,
         "pipeline_path": "pipe2",
-        "snaplex_path": "cloud"
+        "snaplex_path": null
     },
     "schedule": {
         "repeat": {
