@@ -62,7 +62,7 @@
         }
     },
     "render_map": {
-        "default_snaplex": "/snaplogic/shared/cloud",
+        "default_snaplex": "/aorg/shared/Cloud",
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
